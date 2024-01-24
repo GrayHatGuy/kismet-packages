@@ -25,7 +25,8 @@ You can build your own packages (hopefully easily) using the included scripts.  
 1. Define the location of your checkout:
 
     ```bash
-    $ export BASE_DIR=/path/to/kismet-packaging
+    $ bash -c "export BASE_DIR=/home/<username>/kismet-packages; echo \$BASE_DIR"
+
     ```
 
 2. Define the location of your Kismet checkout; to avoid pulling the entire Kismet repo for every build, the scripts use a local checked out copy of Kismet.
